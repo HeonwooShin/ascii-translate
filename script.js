@@ -72,7 +72,7 @@ function init() {
     translateMode.addEventListener('click', ()=>{
             
         if (text_2_ASCII){
-            inputText.placeholder = "Write an binary code"
+            inputText.placeholder = "Write a binary code"
             translateMode.value = "BINARY   →   TEXT"
         } else {
             inputText.placeholder = "Write a text"
